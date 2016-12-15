@@ -1,7 +1,10 @@
-body {
-	background-color: red;
-}
+
 
 .sec1 {
 	background: black;
+
+}
+
+p {
+	color: blueviolet;
 }
