@@ -1,0 +1,148 @@
+.red {
+	color: red;
+}
+
+
+p::first-letter {
+	color: #EBFC00;
+}
+
+/*input:focus {
+	background-color: greenyellow;
+}*/
+
+.div1 {
+background-image: url('trianglepattern.jpg');
+	height: 100px;
+	width: 600px;
+	border-radius: 1px;
+	border: 3px double silver;
+	cursor: crosshair;
+
+}
+
+input {
+	outline-color: blueviolet;
+	
+}
+
+.menushka  {
+list-style: none;
+margin: 0;
+padding: 0;
+font-size: 12px;
+color: red;
+text-transform: uppercase;
+overflow: hidden;
+}
+
+.menushka li {
+float: left;
+height: 50px;
+}
+
+.menushka a, .menushka a:before {
+display: block;
+padding: 0 30px;
+background: red;
+color: #fff;
+text-decoration: none;
+line-height: 50px;
+position: relative;
+
+}
+.menushka a:before {
+	content: attr(data-clone);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	color: #333;
+	
+}
+
+.menushka a:hover {
+	margin-top: -50px;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	
+	
+	
+}
+
+p::before {
+	content: "I love everybody ";
+}
+
+::selection {
+	color: purple;
+	background: yellow;
+}
+
+/*Selection of text for mozilla*/
+::-moz-selection {
+	color: purple;
+	background: yellow;
+}
+
+.lumi {
+	color: red;
+	background-color: blue;
+	font-weight: bold;
+	border: none;
+	padding: 5px 30px 5px 30px;
+	font-size: 20px;
+	font-family: verdana;
+	
+}
+
+.lumi:hover {
+	background-color: purple;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.ooo {
+	background-color: #537C1C;
+	display: inline-block;
+	color: #472A23;
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	transition: all 0.6s;
+	width: 200px;
+	margin: 5px;
+
+}
+
+.ooo span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.6s;
+}
+
+
+.ooo span:after {
+	content: 'is Stincker';
+	position: absolute;
+	opacity: 0;
+	top:0;
+	right: -30px;
+	transition: 0.6s;
+}
+
+.ooo:hover span {
+padding-right: 80px;
+}
+
+.ooo:hover span:after {
+	opacity: 1;
+	right:0;
+}
