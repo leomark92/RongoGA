@@ -3,8 +3,14 @@
 .sec1 {
 	background: black;
 
+
 }
 
 p {
 	color: blueviolet;
+	text-align: center;
+	padding: auto 10px auto 10px;
 }
+ article {
+ 	padding: 1.5em;
+ }
