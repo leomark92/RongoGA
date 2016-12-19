@@ -25,7 +25,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: #E1DCE6;
     text-align: center;
     padding: 0.7em 1.5em;
     text-decoration: none;
@@ -39,6 +39,7 @@ li a {
 
 
 li a:hover {
+    color: black;
     background: #A9A0AA;
     -moz-box-shadow: inset 0 -10px 10px -10px #000000;
     -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
@@ -46,6 +47,7 @@ li a:hover {
 }
 
 li a:active {
+    color: black;
     background: #E1DCE6;
     -moz-box-shadow: inset 0 -10px 10px -10px #000000;
     -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
