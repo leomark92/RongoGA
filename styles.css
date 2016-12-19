@@ -83,3 +83,7 @@ li a:active {
    border-radius: 0.5px;
 
 }
+
+.but1:active {
+    background-color: #AEFFFF;
+}
