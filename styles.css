@@ -101,11 +101,13 @@ li a:active {
     color: #1B1BFD;
     background-color: #C7E1FE;
     text-align: center;
-    width: 50%;
+    width: 100%;
     height: 6em;
     margin-top: 3em;
     float: left;
     padding: 1em;
-    margin-left: 13em;
+    margin-left: 10em;
     border-radius: 1em;
+    width: 30em;
+
 }
