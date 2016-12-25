@@ -114,7 +114,7 @@ li a:active {
 
 @media screen and (max-device-width: 700px) {
     .desc {
-        margin-left: 5em;
-        width: 15em;
+        margin-left: 1em;
+        width: 10em;
     }
 }
