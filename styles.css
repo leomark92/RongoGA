@@ -1,5 +1,7 @@
 body{
     background-color: #F0E7F1;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -90,4 +92,20 @@ li a:active {
 
 .but1:active {
     background-color: #AEFFFF;
+}
+
+.desc {
+    border: 3px groove silver;
+    font-family: 'Oswald';
+    font-size: 1.5em;
+    color: #1B1BFD;
+    background-color: #C7E1FE;
+    text-align: center;
+    width: 50%;
+    height: 6em;
+    margin-top: 3em;
+    float: left;
+    padding: 1em;
+    margin-left: 13em;
+    border-radius: 1em;
 }
