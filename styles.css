@@ -2,6 +2,7 @@ body{
     background-color: #F0E7F1;
     margin: 0;
     padding: 0;
+    height: 2000px;
 }
 
 
@@ -35,8 +36,6 @@ li a {
     text-decoration: none;
     border-left: 1px solid #948B95;
    
-
-    
 }
 
   .bright {
@@ -119,4 +118,27 @@ li a:active {
     .bg {
         width: 100%;
     }
+}
+
+.fixe {
+    border: 4px solid #5D6977;
+    position: fixed;
+    height: 200px;
+    width: 50px;
+    margin-top: 5em;
+    font-family: 'Oswald';
+    padding: 1.1em;
+    border-radius: 4px;
+    background: url(speech.png) no-repeat center bottom #D7E4FF;
+    -webkit-background-size: 50px 30px;
+    background-size: 40px 40px;
+    padding-bottom: -1em;
+    background-position: 20px 180px;
+
+
+}
+
+.fixe:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
 }
