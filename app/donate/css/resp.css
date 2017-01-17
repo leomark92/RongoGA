@@ -6,9 +6,9 @@
 #red {height: 150%;}
 #red article { width: 90%; }
 #red h2 { background: none; margin-top: -90px; }
-.icons { margin-top: 10%; }
+.icons { margin-top: 30%; }
 .icon1, .icon2 { display: none; }
-.one { float: none; width: 100%; margin: 0; margin-bottom: 20px; }
+.one { float: none; width: 100%; margin: 0; margin-bottom: 40px; }
 #program { height: 100vh; }
 .cell {display: block; width: 70%; margin:0px auto 20px auto; }
        }
@@ -18,18 +18,27 @@
 .wheel {
 	width: 300px;
 	margin-left: -150px;
-	top: 40%;
 }
 
+.one {
+	background: none;
+	padding-top: 50px;
+}
+
+.one:nth-child(2) {
+	background: none;
+}
+	.one:nth-child(3) {
+	background: none;
+}
 
 .icons {
-	margin-top: 10%;
-	padding-bottom: 20%;
+	margin-top: 30%;
 }
 
 .explain {
 width: 100%;
 }
-
-
        }
+
+
