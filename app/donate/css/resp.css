@@ -18,7 +18,7 @@
 .wheel {
 	width: 300px;
 	margin-left: -150px;
-	margin-top: 40%;
+	top: 40%;
 }
 
 .one {
@@ -40,6 +40,8 @@
 .explain {
 width: 100%;
 }
+
+#program { height: 100vh; }
        }
 
 
