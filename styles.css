@@ -173,3 +173,12 @@ li a {
     cursor: pointer;
     background-color: #FFFFFF;
 }
+
+.rongo {
+    color: orange;
+    font-family: impact;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 400px;
+    margin-left: 50px;
+}
