@@ -1,0 +1,9 @@
+.flex-container {
+	display: flex;/* flex; inline-flex; */
+	flex-direction: row;/* row; row-reverse; column; column reverse; */
+	flex-wrap: wrap; /* wrap; nowrap; wrap-reverse */
+	justify-content: flex-start; /* flex-start; flex-end; center; space-between; space-around; */
+	
+
+}
+
