@@ -34,20 +34,20 @@ body {
 
 #navbar li a {
 	display: block;
-	color: black;
+	color: #5B5B5B;
 	line-height: 50px;
 	text-align: center;
-	font-family: Cursive, sans-serif;
+	font-family: Impact;
 	font-size: 16px;
 	text-decoration: none;
 }
 #navbar li a:hover {
-	color: white;
+	color: #F1F1F1;
 	background: #838383;
 	
 }
 #navbar li a:focus {
-	color: white;
+	color: #E2E2E2;
 	background: grey;
 }
 #navbar li a:active {
